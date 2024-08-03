@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supermercado Margarita - Productos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="images/logo-supermercado-margarita.jpeg" alt="Logo del Supermercado Margarita" class="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="productos-seccion">
+      <h1>Lista de Productos</h1>
+      <ul id="productos-lista" class="productos-lista"></ul>
+    </section>
+    <section class="metodo-pago">
+      <h2>Método de Pago</h2>
+      <div class="metodos">
+        <label>
+          <input type="radio" name="metodo-pago" value="tarjeta" checked> Tarjeta de Crédito en Cuotas
+        </label>
+        <label>
+          <input type="radio" name="metodo-pago" value="debito"> Débito
+        </label>
+        <label>
+          <input type="radio" name="metodo-pago" value="efectivo"> Efectivo
+        </label>
+      </div>
+    </section>
+    <button id="comprar" class="buy-button">Comprar</button>
+    <p id="mensaje" class="mensaje"></p>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 Supermercado Margarita. Todos los derechos reservados.</p>
+      <div class="footer-buttons">
+        <a href="politicas.html" class="btn">Políticas de Privacidad</a>
+        <a href="contacto.html" class="btn">Contáctanos</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
